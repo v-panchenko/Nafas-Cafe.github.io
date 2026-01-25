@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nəfəs Cafe</title>
+    <link rel="shortcut icon" href="assets/logo/brand_sign.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <div class="header_full_logo"><a href="index.html"><img src="assets/logo/full_logo.svg" alt=""></a></div>
+            <nav class="navbar">
+                <a href="index.html" class="nav_item">Home</a>
+                <a href="#about_us" class="nav_item">About Us</a>
+                <a href="#atmosphere" class="nav_item">Atmosphere</a>
+                <a href="#our_menu" class="nav_item">Menu</a>
+                <a href="#visit_us" class="nav_item">Visit Us</a>
+            </nav>
+            <button class="burger-menu" type="button">
+                <img class="burger-menu__icon" src="assets/icons/burger-menu.svg" alt="">
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="back-to-top" id="Home-navigation">
+            <a href="#"><img src="assets/icons/home-arrow.svg" alt=""></a>
+        </div>
+        <section class="hero">
+            <div class="hero_bg"><!-- HERO BACKGROUND --></div>
+            <div class="container hero_container">
+                <div class="hero_content">
+                    <img src="assets/logo/hero_logo.svg" alt="Nəfəs Cafe Logo" class="hero_logo">
+                    <h1 class="hero_title">Warm coffee. Calm atmosphere.</h1>
+                    <div class="hero_buttons">
+                        <a href="menu.html" class="button button_primary">View Menu</a>
+                        <a href="#visit_us" class="button button_secondary">Book a Table</a>
+                    </div>
+                </div>
+                <div class="dividing_line">
+                    <img src="assets/icons/dividing_line.svg" alt="----------------" class="dividing_line_image">
+                </div>
+            </div>
+        </section>
+
+        <section class="about_us" id="about_us">
+            <div class="container about_us_container">
+                <div class="about_us_content">
+                    <div class="about_us_info">
+                        <h2 class="about_us_title">About Nəfəs</h2>
+                        <p class="about_us_description">
+                            Nəfəs is a cozy urban café in Baku where time slows down.
+                            Here, every detail — from warm lighting and lush greenery to carefully selected ingredients — is designed to give you a moment of calm. 
+                            Enjoy your coffee, work, or a meal in a space that breathes comfort and serenity.
+                        </p>
+                    </div>
+                    <div class="about_us_photo">
+                        <img src="images/about_us/table_and_dishes.png" alt="table_and_dishes" class="about_us_image food-img">
+                    </div>
+                </div>
+                <div class="dividing_line">
+                    <img src="assets/icons/dividing_line.svg" alt="----------------" class="dividing_line_image">
+                </div>
+            </div>
+        </section>
+
+        <section class="atmosphere" id="atmosphere">
+            <div class="container atmosphere_container">
+                <div class="section_name">
+                    <h2 class="atmosphere_title">Atmosphere</h2>
+                </div>
+                <div class="atmosphere_gallery">
+                    <div class="atmosphere_image">
+                        <img class="atmosphere_img food-img" src="images/atmosphere/girls_and_coffee.png" alt="girls_and_coffee">
+                    </div>
+                    <div class="atmosphere_image">
+                        <img class="atmosphere_img food-img" src="images/atmosphere/bar.png" alt="bar">
+                    </div>
+                    <div class="atmosphere_image">
+                        <img class="atmosphere_img food-img" src="images/atmosphere/holl.png" alt="holl">
+                    </div>
+                    <div class="atmosphere_image">
+                        <img class="atmosphere_img food-img" src="images/atmosphere/table_and_dishes.png" alt="table_and_dishes">
+                    </div>
+                    <div class="atmosphere_slider">
+                    <button class="atm-btn atm-prev">‹</button>
+                    <div class="atm-slider" id="atmSlider">
+                        <div class="atm-item"><img class="atmosphere_img" src="images/atmosphere/girls_and_coffee.png" alt=""></div>
+                        <div class="atm-item"><img class="atmosphere_img" src="images/atmosphere/bar.png" alt=""></div>
+                        <div class="atm-item"><img class="atmosphere_img" src="images/atmosphere/holl.png" alt=""></div>
+                        <div class="atm-item"><img class="atmosphere_img" src="images/atmosphere/table_and_dishes.png" alt=""></div>
+                    </div>
+                    <button class="atm-btn atm-next">›</button>
+                </div>
+                </div>
+                <div class="dividing_line">
+                    <img src="assets/icons/dividing_line.svg" alt="----------------" class="dividing_line_image">
+                </div>
+            </div>
+        </section>
+
+        <section class="our_menu" id="our_menu">
+            <div class="container our_menu_container">
+                <div class="section_name">
+                    <h2 class="our_menu_title">Our Menu</h2>
+                </div>
+                <div class="our_menu_card">
+                    <a href="menu.html" class="card coffee_card">
+                        <div class="card_description">
+                            <img src="assets/icons/dishes_icons/Coffee.svg" alt="Coffee Icon" class="card_icon">
+                            <h3 class="card_title">Coffee</h3>
+                            <img src="assets/icons/card_line.svg" alt="-----------------" class="card_line">
+                        </div>
+                    </a>
+                    <a href="menu.html" class="card hot_card">
+                        <div class="card_description">
+                            <img src="assets/icons/dishes_icons/Hot.svg" alt="Hot Icon" class="card_icon">
+                            <h3 class="card_title">Main Dishes</h3>
+                            <img src="assets/icons/card_line.svg" alt="-----------------" class="card_line">
+                        </div>
+                    </a>
+                    <a href="menu.html" class="card dessert_card">
+                        <div class="card_description">
+                            <img src="assets/icons/dishes_icons/dessert.svg" alt="Desserts Icon" class="card_icon">
+                            <h3 class="card_title">Desserts</h3>
+                            <img src="assets/icons/card_line.svg" alt="-----------------" class="card_line">
+                        </div>
+                    </a>
+                    <a href="menu.html" class="card drink_card">
+                        <div class="card_description">
+                            <img src="assets/icons/dishes_icons/Drinks.svg" alt="Drinks Icon" class="card_icon">
+                            <h3 class="card_title">Drinks</h3>
+                            <img src="assets/icons/card_line.svg" alt="-----------------" class="card_line">
+                        </div>
+                    </a>
+                </div>
+                <div class="our_menu_action">
+                    <a href="menu.html" class="button button_view_full_menu">View Full Menu</a>
+                </div>
+                <div class="dividing_line">
+                    <img src="assets/icons/dividing_line.svg" alt="----------------" class="dividing_line_image">
+                </div>
+            </div>
+        </section>
+
+        <section class="visit_us" id="visit_us">
+            <div class="container visit_us_container">
+                <div class="section_name">
+                    <h2 class="visit_us_title">Visit Us</h2>
+                </div>
+                <div class="visit_us_content">
+                    <div class="visit_us_info">
+                        <p class="visit_us_description">
+                            Find us in the heart of the city - a quiet spot for coffee,food,and a moment to breathe.
+                        </p>
+                        <div class="visit_address">
+                            <h3 class="visit_us_address">Address</h3>
+                            <p class="address_details">Ağa Nemətulla 42 street, Baku, Azerbaijan</p>
+                        </div>
+                        <div class="visit_hours">
+                            <h3 class="visit_us_hours">Wprking Hours</h3>
+                            <p class="hours_details">Daily • <b>8:00</b> – <b>23:00</b></p>
+                        </div>
+                        <div class="visit_contact">
+                            <h3 class="visit_us_contact">Contact</h3>
+                            <p class="contact_detailds">
+                                Phone: <a href="tel:+994771234567" class="contact_link">+994 77 123 45 67</a><br>
+                                Instagram: <a href="https://www.instagram.com/nafas_cafe.az/" class="contact_link">@nafas_cafe.az</a><br>
+                                Email: <a href="mailto:nafascafe@gmail.com" class="contact_link">nafascafe@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="visit_us_location">
+                        <iframe class="visit_us_map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d184.7009709661622!2d49.87276816740462!3d40.402339899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2saz!4v1767731220548!5m2!1sru!2saz" width="510px" height="390px" style="border:4px solid #744021;border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="container footer_container">
+            <div class="footer_block">
+                <div class="footer_info">
+                    <img src="assets/logo/footer_logo.svg" alt="Nafas Cafe" class="footer_logo">
+                    <p class="footer_info_contact">
+                        <b>Phone Number:<br><a href="tel:+994771234567" class="contact_link">+994 77 123 45 67</a></b>
+                    </p>
+                    <div class="social_media">
+                        <a href="https://www.linkedin.com/in/vladislav-panchenko-b30424395/" class="social_media_link"><img src="assets/icons/media_icons/instagram.svg" alt="Instagram Icon" class="social_media_icon"></a>
+                        <a href="https://www.linkedin.com/in/vladislav-panchenko-b30424395/" class="social_media_link"><img src="assets/icons/media_icons/facebook.svg" alt="Facebook Icon" class="social_media_icon"></a>
+                        <a href="https://www.linkedin.com/in/vladislav-panchenko-b30424395/" class="social_media_link"><img src="assets/icons/media_icons/whatsapp.svg" alt="Twitter Icon" class="social_media_icon"></a>
+                    </div>
+                </div>
+                <div class="footer_navbar">
+                    <nav class="navbar footer_nav">
+                        <a href="index.html" class="nav_item">Home</a>
+                        <a href="#about_us" class="nav_item">About Us</a>
+                        <a href="#atmosphere" class="nav_item">Atmosphere</a>
+                        <a href="#our_menu" class="nav_item">Menu</a>
+                        <a href="#visit_us" class="nav_item">Visit Us</a>
+                    </nav>
+                </div>
+            </div>
+                <hr class="footer_dividing_line">
+                <p class="footer_copyright"><b>© 2026 Nəfəs Cafe. All rights reserved.Designer and Developer - Vladislav Panchenko</b></p>
+            </section>
+    </footer>
+    <div class="modal" id="imgModal">
+            <span class="close">X</span>
+        <div class="modal-content-block">
+            <img class="modal-content" id="modalImg">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
