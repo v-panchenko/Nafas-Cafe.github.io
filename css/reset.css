@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {margin: 0;padding: 0;box-sizing: border-box;}
+html {font-size: 20px;color: #E5C997;scroll-behavior: smooth;}
+img {max-width: 100%;display: block;}
+.container {max-width: 1280px;margin: 0 auto;}
+.button {background-color: #180D07;color: #E5C997;border: 2px solid #744021;border-radius: 8px;transition: transform 0.3s, background-color 0.3s, color 0.3s;}
+.button:hover {transform: scale(0.95);background-color: #E5C997;color: #3B2416;}
+/* TYPOGRAPHY */
+a {text-decoration: none;font-weight: 700;font-size: 24px;color: #e5c997;}
+h1 {font-weight: 700;font-size: 56px;}
+h2 {font-weight: 700;font-size: 40px;letter-spacing: 0.01em;color: #c89a4b;}
+h3 {font-weight: 700;font-size: 24px;color: #c89a4b;margin-bottom: 12px;}
